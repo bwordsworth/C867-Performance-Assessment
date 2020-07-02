@@ -88,32 +88,32 @@ degprog Student::getDegree() {
 
 // PRINT FUNCTIONS
 void Student::printID() {
-    cout << "Student ID: " << studentID << endl;
+    cout << "Student ID: " << studentID << "\t";
 }
 
 void Student::printFirst() {
-    cout << "First Name: " << firstName << endl;
+    cout << "First Name: " << firstName << "\t";
 }
 
 void Student::printLast() {
-    cout << "Last Name: " << lastName << endl;
+    cout << "Last Name: " << lastName << "\t";
 }
 
 void Student::printEmail() {
-    cout << "Email Address: " << emailAddress << endl;
+    cout << "Email Address: " << emailAddress << "\t";
 }
 
 void Student::printAge() {
-    cout << "Age: " << age << endl;
+    cout << "Age: " << age << "\t";
 }
 
 void Student::printNumDays() {
     cout << "Number of Days to Complete Each Course: "
-         << days_array[0] << " " << days_array[1] << " " << days_array[2] << endl;
+         << days_array[0] << " " << days_array[1] << " " << days_array[2] << "\t";
 }
 
 void Student::printDeg() {
-    cout << "Degree: " << degree << endl;
+    cout << "Degree: " << degree << "\t";
 }
 
 void Student::print() {

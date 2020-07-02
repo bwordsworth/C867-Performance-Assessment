@@ -39,6 +39,7 @@ void Roster::remove(string studID) {
 void Roster::printAll() {
     for (int i = 0; i < ARRAY_SIZE; ++i) {
         classRosterArray[i]->print();
+        cout << endl;
     }
 }
 
